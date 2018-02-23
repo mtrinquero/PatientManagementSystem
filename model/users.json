@@ -1,0 +1,32 @@
+[
+  {
+    "name":"Dominique Telfort",
+    "username":"dtelfort",
+    "password":"demo"
+   },
+  {
+    "name":"Mark Trinquero",
+    "username":"mtrinquero",
+    "password":"demo" 
+  },
+  {
+    "name":"Jonathan Carmack",
+    "username":"jcarmack",
+    "password":"demo" 
+  },
+  {
+    "name":"Nikkie Shrestha",
+    "username":"nshrestha",
+    "password":"demo" 
+  },
+  {
+    "name":"Prabhakar Kallakuri",
+    "username":"pkallakuri",
+    "password":"demo" 
+  },
+  {
+    "name":"Otis Roberts",
+    "username":"oroberts",
+    "password":"demo" 
+  }  
+]

@@ -1,0 +1,42 @@
+ <h1>Overview</h1>
+
+<section>
+     <div class="patient cf" ng-model="patients">
+      <!--  <a href="#/patientDirectoryView" class="btn btn-left">&lt;</a> -->
+        <h2>{{patients[whichItem].name}}</h2>
+        <div class="info">
+            <img ng-src="images/{{patients[whichItem].picturename}}_pic.jpg" alt="Photo of {{patients[whichItem].name}}">
+            <h3>{{patients[whichItem].address}}</h3>
+            <h3>{{patients[whichItem].dob}}</h3>
+            <h3>{{patients[whichItem].sex}}</h3>
+            <h3>{{patients[whichItem].primarypcp}}</h3>
+            <h3>{{patients[whichItem].pcpphone}}</h3>
+            <div class="bio">{{patients[whichItem].minfo}}</div>
+        </div>
+    </div>
+    </br>
+    </br>
+<h1>Details</h1>
+    <div class=patientinfo"">
+        <div class="row">
+            <div class="col-md-12"><h2>Patient Details: Data coming From Jason File..... </h2></div>
+            <div class="col-md-12"><p>Allergies, Adverse Reactions, and Alerts: {{patients[whichItem].allergies}}</p></div>
+            <div class="col-md-12"><p>PCP Info: Data coming From Jason File.....</p></div>
+            <div class="col-md-12"><p>Care Plan: Data coming From Jason File.....</p></div>
+            <div class="col-md-12"><p>Encounters: Data coming From Jason File.....</p></div>
+            <div class="col-md-12"><p>Immunizations: Data coming From Jason File.....</p></div>
+            <div class="col-md-12"><p>Medications: Data coming From Jason File.....</p></div>
+            <div class="col-md-12"><p>Problems: Data coming From Jason File.....</p></div>
+            <div class="col-md-12"><p>Procedures: Data coming From Jason File.....</p></div>
+            <div class="col-md-12"><p>Allergies:{{patients[whichItem].allergies}} </p></div>
+            <div class="col-md-12"><p>Vitals: </p></div>
+         </div>
+    </div>
+    </br>
+    <a href="#/patientDirectoryView">&laquo; Back to Patient Directory</a>
+    
+</section>
+  
+  
+  
+  
